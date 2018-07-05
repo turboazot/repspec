@@ -1,8 +1,8 @@
 <?php
 
-namespace ArtemProger\Specification\Query;
+namespace ArtemProger\Repspec\Specification\Query;
 
-use ArtemProger\Specification\Base\NoArgumentSpecification;
+use ArtemProger\Repspec\Specification\Base\NoArgumentSpecification;
 
 class Random extends NoArgumentSpecification {
 

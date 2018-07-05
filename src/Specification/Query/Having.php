@@ -1,8 +1,8 @@
 <?php
 
-namespace ArtemProger\Specification\Query;
+namespace ArtemProger\Repspec\Specification\Query;
 
-use ArtemProger\Specification\Base\ConditionBooleanSpecification;
+use ArtemProger\Repspec\Specification\Base\ConditionBooleanSpecification;
 
 class Having extends ConditionBooleanSpecification {
 

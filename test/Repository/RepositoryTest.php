@@ -1,13 +1,13 @@
 <?php
 
-namespace ArtemProger\Test\Repository;
+namespace ArtemProger\Repspec\Test\Repository;
 
-use ArtemProger\Action\Base\ActionInterface;
-use ArtemProger\Action\Base\ModelManipulation;
-use ArtemProger\Repository\Repository;
-use ArtemProger\Specification\SpecificationInterface;
-use ArtemProger\Test\Models\User;
-use ArtemProger\Test\TestCase;
+use ArtemProger\Repspec\Action\Base\ActionInterface;
+use ArtemProger\Repspec\Action\Base\ModelManipulation;
+use ArtemProger\Repspec\Repository\Repository;
+use ArtemProger\Repspec\Specification\SpecificationInterface;
+use ArtemProger\Repspec\Test\Models\User;
+use ArtemProger\Repspec\Test\TestCase;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Query\Builder as QueryBuilder;
 

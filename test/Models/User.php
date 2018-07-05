@@ -1,6 +1,6 @@
 <?php
 
-namespace ArtemProger\Test\Models;
+namespace ArtemProger\Repspec\Test\Models;
 
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\SoftDeletes;

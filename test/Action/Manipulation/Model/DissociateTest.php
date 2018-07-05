@@ -1,10 +1,10 @@
 <?php
 
-namespace ArtemProger\Test\Action\Manipulation\Model;
+namespace ArtemProger\Repspec\Test\Action\Manipulation\Model;
 
-use ArtemProger\Test\TestCase;
-use ArtemProger\Test\Models\User;
-use ArtemProger\Action\Manipulation\Model\Dissociate;
+use ArtemProger\Repspec\Test\TestCase;
+use ArtemProger\Repspec\Test\Models\User;
+use ArtemProger\Repspec\Action\Manipulation\Model\Dissociate;
 
 class DissociateTest extends TestCase {
 

@@ -1,8 +1,8 @@
 <?php
 
-namespace ArtemProger\Action\Manipulation\Query;
+namespace ArtemProger\Repspec\Action\Manipulation\Query;
 
-use ArtemProger\Action\Base\ActionInterface;
+use ArtemProger\Repspec\Action\Base\ActionInterface;
 
 class Update implements ActionInterface {
 

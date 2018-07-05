@@ -1,8 +1,8 @@
 <?php
 
-namespace ArtemProger\Action\Lock;
+namespace ArtemProger\Repspec\Action\Lock;
 
-use ArtemProger\Action\Base\ActionInterface;
+use ArtemProger\Repspec\Action\Base\ActionInterface;
 
 class Lock implements ActionInterface {
 

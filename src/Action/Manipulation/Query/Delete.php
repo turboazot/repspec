@@ -1,8 +1,8 @@
 <?php
 
-namespace ArtemProger\Action\Manipulation\Query;
+namespace ArtemProger\Repspec\Action\Manipulation\Query;
 
-use ArtemProger\Action\Base\NoArgumentAction;
+use ArtemProger\Repspec\Action\Base\NoArgumentAction;
 
 class Delete extends NoArgumentAction {
 

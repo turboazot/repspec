@@ -1,9 +1,9 @@
 <?php
 
-namespace ArtemProger\Specification\Base;
+namespace ArtemProger\Repspec\Specification\Base;
 
-use ArtemProger\MethodNameTrait;
-use ArtemProger\Specification\SpecificationInterface;
+use ArtemProger\Repspec\MethodNameTrait;
+use ArtemProger\Repspec\Specification\SpecificationInterface;
 
 abstract class Specification implements SpecificationInterface {
     use MethodNameTrait;

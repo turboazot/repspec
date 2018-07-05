@@ -1,13 +1,13 @@
 <?php
 
-namespace ArtemProger\Test\Specification\Filter;
+namespace ArtemProger\Repspec\Test\Specification\Filter;
 
-use ArtemProger\Specification\Filter\ExistsX;
-use ArtemProger\Specification\Filter\Where;
-use ArtemProger\Specification\Query\From;
-use ArtemProger\Specification\Query\Select;
-use ArtemProger\Test\Models\User;
-use ArtemProger\Test\TestCase;
+use ArtemProger\Repspec\Specification\Filter\ExistsX;
+use ArtemProger\Repspec\Specification\Filter\Where;
+use ArtemProger\Repspec\Specification\Query\From;
+use ArtemProger\Repspec\Specification\Query\Select;
+use ArtemProger\Repspec\Test\Models\User;
+use ArtemProger\Repspec\Test\TestCase;
 use Illuminate\Database\Query\Builder;
 
 class ExistsXTest extends TestCase {

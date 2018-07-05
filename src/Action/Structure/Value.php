@@ -1,8 +1,8 @@
 <?php
 
-namespace ArtemProger\Action\Structure;
+namespace ArtemProger\Repspec\Action\Structure;
 
-use ArtemProger\Action\Base\ActionInterface;
+use ArtemProger\Repspec\Action\Base\ActionInterface;
 
 class Value implements ActionInterface {
 

@@ -1,9 +1,9 @@
 <?php
 
-namespace ArtemProger\Test\Structure;
+namespace ArtemProger\Repspec\Test\Structure;
 
-use ArtemProger\Test\TestCase;
-use ArtemProger\Action\Structure\Cursor;
+use ArtemProger\Repspec\Test\TestCase;
+use ArtemProger\Repspec\Action\Structure\Cursor;
 
 class CursorTest extends TestCase {
 

@@ -1,9 +1,9 @@
 <?php
 
-namespace ArtemProger\Test\Specification\Query;
+namespace ArtemProger\Repspec\Test\Specification\Query;
 
-use ArtemProger\Test\TestCase;
-use ArtemProger\Specification\Query\Limit;
+use ArtemProger\Repspec\Test\TestCase;
+use ArtemProger\Repspec\Specification\Query\Limit;
 
 class LimitTest extends TestCase {
 

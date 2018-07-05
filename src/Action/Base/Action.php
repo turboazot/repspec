@@ -1,8 +1,8 @@
 <?php
 
-namespace ArtemProger\Action\Base;
+namespace ArtemProger\Repspec\Action\Base;
 
-use ArtemProger\MethodNameTrait;
+use ArtemProger\Repspec\MethodNameTrait;
 use Illuminate\Database\Eloquent\Model;
 
 abstract class Action implements ActionInterface {

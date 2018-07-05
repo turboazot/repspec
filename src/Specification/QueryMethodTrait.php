@@ -1,16 +1,16 @@
 <?php
 
-namespace ArtemProger\Specification;
+namespace ArtemProger\Repspec\Specification;
 
-use ArtemProger\Specification\Query\Distinct;
-use ArtemProger\Specification\Query\From;
-use ArtemProger\Specification\Query\GroupBy;
-use ArtemProger\Specification\Query\Having;
-use ArtemProger\Specification\Query\Limit;
-use ArtemProger\Specification\Query\Offset;
-use ArtemProger\Specification\Query\OrderBy;
-use ArtemProger\Specification\Query\Random;
-use ArtemProger\Specification\Query\Select;
+use ArtemProger\Repspec\Specification\Query\Distinct;
+use ArtemProger\Repspec\Specification\Query\From;
+use ArtemProger\Repspec\Specification\Query\GroupBy;
+use ArtemProger\Repspec\Specification\Query\Having;
+use ArtemProger\Repspec\Specification\Query\Limit;
+use ArtemProger\Repspec\Specification\Query\Offset;
+use ArtemProger\Repspec\Specification\Query\OrderBy;
+use ArtemProger\Repspec\Specification\Query\Random;
+use ArtemProger\Repspec\Specification\Query\Select;
 
 trait QueryMethodTrait {
 

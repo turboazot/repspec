@@ -1,8 +1,8 @@
 <?php
 
-namespace ArtemProger\Action\Base;
+namespace ArtemProger\Repspec\Action\Base;
 
-use ArtemProger\Action\Base\Action;
+use ArtemProger\Repspec\Action\Base\Action;
 use Illuminate\Database\Eloquent\Builder;
 
 abstract class PaginateAction extends Action {

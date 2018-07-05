@@ -1,21 +1,21 @@
 <?php
 
-namespace ArtemProger\Specification;
+namespace ArtemProger\Repspec\Specification;
 
-use ArtemProger\Specification\Filter\Between;
-use ArtemProger\Specification\Filter\Date;
-use ArtemProger\Specification\Filter\Day;
-use ArtemProger\Specification\Filter\ExistsX;
-use ArtemProger\Specification\Filter\In;
-use ArtemProger\Specification\Filter\IsNull;
-use ArtemProger\Specification\Filter\Month;
-use ArtemProger\Specification\Filter\OnlyTrashed;
-use ArtemProger\Specification\Filter\Time;
-use ArtemProger\Specification\Filter\When;
-use ArtemProger\Specification\Filter\Where;
-use ArtemProger\Specification\Filter\WhereX;
-use ArtemProger\Specification\Filter\WithTrashed;
-use ArtemProger\Specification\Filter\Year;
+use ArtemProger\Repspec\Specification\Filter\Between;
+use ArtemProger\Repspec\Specification\Filter\Date;
+use ArtemProger\Repspec\Specification\Filter\Day;
+use ArtemProger\Repspec\Specification\Filter\ExistsX;
+use ArtemProger\Repspec\Specification\Filter\In;
+use ArtemProger\Repspec\Specification\Filter\IsNull;
+use ArtemProger\Repspec\Specification\Filter\Month;
+use ArtemProger\Repspec\Specification\Filter\OnlyTrashed;
+use ArtemProger\Repspec\Specification\Filter\Time;
+use ArtemProger\Repspec\Specification\Filter\When;
+use ArtemProger\Repspec\Specification\Filter\Where;
+use ArtemProger\Repspec\Specification\Filter\WhereX;
+use ArtemProger\Repspec\Specification\Filter\WithTrashed;
+use ArtemProger\Repspec\Specification\Filter\Year;
 
 trait FilterMethodTrait {
 

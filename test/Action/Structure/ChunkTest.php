@@ -1,10 +1,10 @@
 <?php
 
-namespace ArtemProger\Test\Structure;
+namespace ArtemProger\Repspec\Test\Structure;
 
-use ArtemProger\Test\TestCase;
-use ArtemProger\Action\Structure\Chunk;
-use ArtemProger\Test\Models\User;
+use ArtemProger\Repspec\Test\TestCase;
+use ArtemProger\Repspec\Action\Structure\Chunk;
+use ArtemProger\Repspec\Test\Models\User;
 
 class ChunkTest extends TestCase {
 

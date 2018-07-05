@@ -1,8 +1,8 @@
 <?php
 
-namespace ArtemProger\Action\Base;
+namespace ArtemProger\Repspec\Action\Base;
 
-use ArtemProger\MethodNameTrait;
+use ArtemProger\Repspec\MethodNameTrait;
 
 abstract class RelationValueAction extends ModelManipulation {
 

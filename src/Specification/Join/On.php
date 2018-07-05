@@ -1,8 +1,8 @@
 <?php
 
-namespace ArtemProger\Specification\Join;
+namespace ArtemProger\Repspec\Specification\Join;
 
-use ArtemProger\Specification\SpecificationInterface;
+use ArtemProger\Repspec\Specification\SpecificationInterface;
 
 class On implements SpecificationInterface {
 

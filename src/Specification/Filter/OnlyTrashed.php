@@ -1,8 +1,8 @@
 <?php
 
-namespace ArtemProger\Specification\Filter;
+namespace ArtemProger\Repspec\Specification\Filter;
 
-use ArtemProger\Specification\SpecificationInterface;
+use ArtemProger\Repspec\Specification\SpecificationInterface;
 use Illuminate\Database\Eloquent\SoftDeletingScope;
 
 class OnlyTrashed implements SpecificationInterface {

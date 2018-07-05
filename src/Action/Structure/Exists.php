@@ -1,8 +1,8 @@
 <?php
 
-namespace ArtemProger\Action\Structure;
+namespace ArtemProger\Repspec\Action\Structure;
 
-use ArtemProger\Action\Base\NoArgumentAction;
+use ArtemProger\Repspec\Action\Base\NoArgumentAction;
 
 class Exists extends NoArgumentAction {
 

@@ -1,10 +1,10 @@
 <?php
 
-namespace ArtemProger\Test\Action\Manipulation\Model;
+namespace ArtemProger\Repspec\Test\Action\Manipulation\Model;
 
-use ArtemProger\Test\TestCase;
+use ArtemProger\Repspec\Test\TestCase;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
-use ArtemProger\Action\Manipulation\Model\Toggle;
+use ArtemProger\Repspec\Action\Manipulation\Model\Toggle;
 
 class ToggleTest extends TestCase {
 

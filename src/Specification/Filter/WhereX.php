@@ -1,8 +1,8 @@
 <?php
 
-namespace ArtemProger\Specification\Filter;
+namespace ArtemProger\Repspec\Specification\Filter;
 
-use ArtemProger\Specification\Base\UndefinedArgsCountSpecification;
+use ArtemProger\Repspec\Specification\Base\UndefinedArgsCountSpecification;
 
 class WhereX extends UndefinedArgsCountSpecification {
 

@@ -1,11 +1,11 @@
 <?php
 
-namespace ArtemProger\Test\Specification\Filter;
+namespace ArtemProger\Repspec\Test\Specification\Filter;
 
-use ArtemProger\Test\TestCase;
-use ArtemProger\Specification\Filter\Where;
-use ArtemProger\Specification\Filter\When;
-use ArtemProger\Test\Models\User;
+use ArtemProger\Repspec\Test\TestCase;
+use ArtemProger\Repspec\Specification\Filter\Where;
+use ArtemProger\Repspec\Specification\Filter\When;
+use ArtemProger\Repspec\Test\Models\User;
 
 class WhenTest extends TestCase {
 

@@ -1,11 +1,11 @@
 <?php
 
-namespace ArtemProger\Test\Specification\Filter;
+namespace ArtemProger\Repspec\Test\Specification\Filter;
 
-use ArtemProger\Specification\Filter\Where;
-use ArtemProger\Test\TestCase;
-use ArtemProger\Test\Models\User;
-use ArtemProger\Specification\Filter\Year;
+use ArtemProger\Repspec\Specification\Filter\Where;
+use ArtemProger\Repspec\Test\TestCase;
+use ArtemProger\Repspec\Test\Models\User;
+use ArtemProger\Repspec\Specification\Filter\Year;
 
 class YearTest extends TestCase {
 

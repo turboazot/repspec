@@ -1,8 +1,8 @@
 <?php
 
-namespace ArtemProger\Specification\Join;
+namespace ArtemProger\Repspec\Specification\Join;
 
-use ArtemProger\Specification\Base\WithSpecification;
+use ArtemProger\Repspec\Specification\Base\WithSpecification;
 
 class WithCount extends WithSpecification {
 

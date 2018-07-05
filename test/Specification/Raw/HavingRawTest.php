@@ -1,10 +1,10 @@
 <?php
 
-namespace ArtemProger\Test\Specification\Raw;
+namespace ArtemProger\Repspec\Test\Specification\Raw;
 
-use ArtemProger\Test\TestCase;
-use ArtemProger\Specification\Raw\HavingRaw;
-use ArtemProger\Test\Models\User;
+use ArtemProger\Repspec\Test\TestCase;
+use ArtemProger\Repspec\Specification\Raw\HavingRaw;
+use ArtemProger\Repspec\Test\Models\User;
 
 class HavingRawTest extends TestCase {
 

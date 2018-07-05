@@ -1,11 +1,11 @@
 <?php
 
-namespace ArtemProger\Repository;
+namespace ArtemProger\Repspec\Repository;
 
-use ArtemProger\Action\Base\ActionInterface;
-use ArtemProger\Action\Base\ModelManipulation;
-use ArtemProger\Action\Structure\Collection;
-use ArtemProger\Specification\SpecificationInterface;
+use ArtemProger\Repspec\Action\Base\ActionInterface;
+use ArtemProger\Repspec\Action\Base\ModelManipulation;
+use ArtemProger\Repspec\Action\Structure\Collection;
+use ArtemProger\Repspec\Specification\SpecificationInterface;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Model;
 

@@ -1,6 +1,6 @@
 <?php
 
-namespace ArtemProger\Test;
+namespace ArtemProger\Repspec\Test;
 
 use Illuminate\Database\Connection;
 use Illuminate\Database\ConnectionResolverInterface;

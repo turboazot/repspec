@@ -1,6 +1,6 @@
 <?php
 
-namespace ArtemProger\Action\Base;
+namespace ArtemProger\Repspec\Action\Base;
 
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Model;

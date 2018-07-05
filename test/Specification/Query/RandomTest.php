@@ -1,10 +1,10 @@
 <?php
 
-namespace ArtemProger\Test\Specification\Query;
+namespace ArtemProger\Repspec\Test\Specification\Query;
 
-use ArtemProger\Test\TestCase;
-use ArtemProger\Test\Models\User;
-use ArtemProger\Specification\Query\Random;
+use ArtemProger\Repspec\Test\TestCase;
+use ArtemProger\Repspec\Test\Models\User;
+use ArtemProger\Repspec\Specification\Query\Random;
 
 class RandomTest extends TestCase {
 

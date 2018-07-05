@@ -1,8 +1,8 @@
 <?php
 
-namespace ArtemProger\Specification\Base;
+namespace ArtemProger\Repspec\Specification\Base;
 
-use ArtemProger\Specification\SpecificationInterface;
+use ArtemProger\Repspec\Specification\SpecificationInterface;
 
 trait ChildrenTrait {
 

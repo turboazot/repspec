@@ -1,9 +1,9 @@
 <?php
 
-namespace ArtemProger\Specification\Filter;
+namespace ArtemProger\Repspec\Specification\Filter;
 
-use ArtemProger\Specification\Base\ColumnSpecification;
-use ArtemProger\Specification\SpecificationInterface;
+use ArtemProger\Repspec\Specification\Base\ColumnSpecification;
+use ArtemProger\Repspec\Specification\SpecificationInterface;
 
 class IsNull implements SpecificationInterface {
 

@@ -1,13 +1,13 @@
 <?php
 
-namespace ArtemProger\Test\Action\Logic;
+namespace ArtemProger\Repspec\Test\Action\Logic;
 
-use ArtemProger\Test\TestCase;
-use ArtemProger\Action\Structure\Collection;
-use ArtemProger\Action\Lock\Lock;
-use ArtemProger\Test\Models\User;
-use ArtemProger\Action\Logic\AndX;
-use ArtemProger\Action\Structure\Single;
+use ArtemProger\Repspec\Test\TestCase;
+use ArtemProger\Repspec\Action\Structure\Collection;
+use ArtemProger\Repspec\Action\Lock\Lock;
+use ArtemProger\Repspec\Test\Models\User;
+use ArtemProger\Repspec\Action\Logic\AndX;
+use ArtemProger\Repspec\Action\Structure\Single;
 
 class AndXTest extends TestCase {
 

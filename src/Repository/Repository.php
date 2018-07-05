@@ -1,6 +1,6 @@
 <?php
 
-namespace ArtemProger\Repository;
+namespace ArtemProger\Repspec\Repository;
 
 abstract class Repository {
     use RepositoryTrait;

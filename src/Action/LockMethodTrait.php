@@ -1,8 +1,8 @@
 <?php
 
-namespace ArtemProger\Action;
+namespace ArtemProger\Repspec\Action;
 
-use ArtemProger\Action\Lock\Lock;
+use ArtemProger\Repspec\Action\Lock\Lock;
 
 trait LockMethodTrait {
 

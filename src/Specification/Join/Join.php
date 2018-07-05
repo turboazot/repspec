@@ -1,9 +1,9 @@
 <?php
 
-namespace ArtemProger\Specification\Join;
+namespace ArtemProger\Repspec\Specification\Join;
 
-use ArtemProger\Specification\Base\ChildrenTrait;
-use ArtemProger\Specification\SpecificationInterface;
+use ArtemProger\Repspec\Specification\Base\ChildrenTrait;
+use ArtemProger\Repspec\Specification\SpecificationInterface;
 
 class Join implements SpecificationInterface {
 

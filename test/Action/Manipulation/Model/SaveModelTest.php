@@ -1,9 +1,9 @@
 <?php
 
-namespace ArtemProger\Test\Action\Manipulation\Model;
+namespace ArtemProger\Repspec\Test\Action\Manipulation\Model;
 
-use ArtemProger\Test\TestCase;
-use ArtemProger\Action\Manipulation\Model\SaveModel;
+use ArtemProger\Repspec\Test\TestCase;
+use ArtemProger\Repspec\Action\Manipulation\Model\SaveModel;
 
 class SaveModelTest extends TestCase {
 

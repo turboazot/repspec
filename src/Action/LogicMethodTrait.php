@@ -1,8 +1,8 @@
 <?php
 
-namespace ArtemProger\Action;
+namespace ArtemProger\Repspec\Action;
 
-use ArtemProger\Action\Logic\AndX;
+use ArtemProger\Repspec\Action\Logic\AndX;
 
 trait LogicMethodTrait
 {

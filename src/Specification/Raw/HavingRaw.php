@@ -1,8 +1,8 @@
 <?php
 
-namespace ArtemProger\Specification\Raw;
+namespace ArtemProger\Repspec\Specification\Raw;
 
-use ArtemProger\Specification\Base\RawBooleanSpecification;
+use ArtemProger\Repspec\Specification\Base\RawBooleanSpecification;
 
 class HavingRaw extends RawBooleanSpecification {
 

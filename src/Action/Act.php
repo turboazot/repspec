@@ -1,6 +1,6 @@
 <?php
 
-namespace ArtemProger\Action;
+namespace ArtemProger\Repspec\Action;
 
 class Act {
     use AggregatesMethodTrait;

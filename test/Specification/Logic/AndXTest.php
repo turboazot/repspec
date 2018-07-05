@@ -1,11 +1,11 @@
 <?php
 
-namespace ArtemProger\Test\Specification\Logic;
+namespace ArtemProger\Repspec\Test\Specification\Logic;
 
-use ArtemProger\Specification\Filter\Where;
-use ArtemProger\Specification\Logic\AndX;
-use ArtemProger\Test\Models\User;
-use ArtemProger\Test\TestCase;
+use ArtemProger\Repspec\Specification\Filter\Where;
+use ArtemProger\Repspec\Specification\Logic\AndX;
+use ArtemProger\Repspec\Test\Models\User;
+use ArtemProger\Repspec\Test\TestCase;
 
 class AndXTest extends TestCase {
 

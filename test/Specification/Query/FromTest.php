@@ -1,10 +1,10 @@
 <?php
 
-namespace ArtemProger\Test\Specification\Query;
+namespace ArtemProger\Repspec\Test\Specification\Query;
 
-use ArtemProger\Test\TestCase;
+use ArtemProger\Repspec\Test\TestCase;
 use Doctrine\DBAL\Query\QueryBuilder;
-use ArtemProger\Specification\Query\From;
+use ArtemProger\Repspec\Specification\Query\From;
 use Doctrine\DBAL\Connection;
 use Illuminate\Database\Eloquent\Builder as EloquentBuilder;
 use Illuminate\Database\Query\Builder as Query;

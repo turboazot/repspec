@@ -1,8 +1,8 @@
 <?php
 
-namespace ArtemProger\Action;
+namespace ArtemProger\Repspec\Action;
 
-use ArtemProger\Action\Structure\Aggregate;
+use ArtemProger\Repspec\Action\Structure\Aggregate;
 
 trait AggregatesMethodTrait {
 

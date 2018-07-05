@@ -1,9 +1,9 @@
 <?php
 
-namespace ArtemProger\Test\Action\Manipulation\Query;
+namespace ArtemProger\Repspec\Test\Action\Manipulation\Query;
 
-use ArtemProger\Action\Manipulation\Query\Update;
-use ArtemProger\Test\TestCase;
+use ArtemProger\Repspec\Action\Manipulation\Query\Update;
+use ArtemProger\Repspec\Test\TestCase;
 
 class UpdateTest extends TestCase {
 

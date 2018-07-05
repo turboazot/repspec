@@ -1,12 +1,12 @@
 <?php
 
-namespace ArtemProger\Test\Specification\Filter;
+namespace ArtemProger\Repspec\Test\Specification\Filter;
 
-use ArtemProger\Specification\Join\CrossJoin;
-use ArtemProger\Specification\Join\Join;
-use ArtemProger\Specification\Join\On;
-use ArtemProger\Test\Models\User;
-use ArtemProger\Test\TestCase;
+use ArtemProger\Repspec\Specification\Join\CrossJoin;
+use ArtemProger\Repspec\Specification\Join\Join;
+use ArtemProger\Repspec\Specification\Join\On;
+use ArtemProger\Repspec\Test\Models\User;
+use ArtemProger\Repspec\Test\TestCase;
 
 class CrossJoinTest extends TestCase
 {

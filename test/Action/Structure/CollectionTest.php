@@ -1,9 +1,9 @@
 <?php
 
-namespace ArtemProger\Test\Action\Structure;
+namespace ArtemProger\Repspec\Test\Action\Structure;
 
-use ArtemProger\Test\TestCase;
-use ArtemProger\Action\Structure\Collection;
+use ArtemProger\Repspec\Test\TestCase;
+use ArtemProger\Repspec\Action\Structure\Collection;
 
 class CollectionTest extends TestCase {
 

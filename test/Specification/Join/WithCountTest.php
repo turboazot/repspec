@@ -1,11 +1,11 @@
 <?php
 
-namespace ArtemProger\Test\Specification\Join;
+namespace ArtemProger\Repspec\Test\Specification\Join;
 
-use ArtemProger\Test\TestCase;
-use ArtemProger\Test\Models\Post;
-use ArtemProger\Specification\Join\WithCount;
-use ArtemProger\Specification\Filter\Where;
+use ArtemProger\Repspec\Test\TestCase;
+use ArtemProger\Repspec\Test\Models\Post;
+use ArtemProger\Repspec\Specification\Join\WithCount;
+use ArtemProger\Repspec\Specification\Filter\Where;
 
 class WithCountTest extends TestCase {
 

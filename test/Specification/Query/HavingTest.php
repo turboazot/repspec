@@ -1,9 +1,9 @@
 <?php
 
-namespace ArtemProger\Test\Specification\Query;
+namespace ArtemProger\Repspec\Test\Specification\Query;
 
-use ArtemProger\Test\TestCase;
-use ArtemProger\Specification\Query\Having;
+use ArtemProger\Repspec\Test\TestCase;
+use ArtemProger\Repspec\Specification\Query\Having;
 
 class HavingTest extends TestCase {
 

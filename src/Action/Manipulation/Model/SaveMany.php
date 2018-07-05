@@ -1,8 +1,8 @@
 <?php
 
-namespace ArtemProger\Action\Manipulation\Model;
+namespace ArtemProger\Repspec\Action\Manipulation\Model;
 
-use ArtemProger\Action\Base\ModelManipulation;
+use ArtemProger\Repspec\Action\Base\ModelManipulation;
 
 class SaveMany extends ModelManipulation {
 

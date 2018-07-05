@@ -1,10 +1,10 @@
 <?php
 
-namespace ArtemProger\Specification;
+namespace ArtemProger\Repspec\Specification;
 
-use ArtemProger\Specification\Logic\AndX;
-use ArtemProger\Specification\Logic\DoesntHaveX;
-use ArtemProger\Specification\Logic\HasX;
+use ArtemProger\Repspec\Specification\Logic\AndX;
+use ArtemProger\Repspec\Specification\Logic\DoesntHaveX;
+use ArtemProger\Repspec\Specification\Logic\HasX;
 
 trait LogicMethodTrait {
 

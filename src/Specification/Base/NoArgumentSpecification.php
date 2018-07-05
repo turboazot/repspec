@@ -1,8 +1,8 @@
 <?php
 
-namespace ArtemProger\Specification\Base;
+namespace ArtemProger\Repspec\Specification\Base;
 
-use ArtemProger\Specification\Base\Specification;
+use ArtemProger\Repspec\Specification\Base\Specification;
 use Illuminate\Database\Eloquent\Builder;
 
 abstract class NoArgumentSpecification extends Specification {

@@ -1,6 +1,6 @@
 <?php
 
-namespace ArtemProger\Specification\Base;
+namespace ArtemProger\Repspec\Specification\Base;
 
 abstract class WithSpecification extends Specification {
 

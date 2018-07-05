@@ -1,6 +1,6 @@
 <?php
 
-namespace ArtemProger\Action\Base;
+namespace ArtemProger\Repspec\Action\Base;
 
 abstract class XCrementAction extends Action {
     

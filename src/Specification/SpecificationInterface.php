@@ -1,6 +1,6 @@
 <?php
 
-namespace ArtemProger\Specification;
+namespace ArtemProger\Repspec\Specification;
 
 use Illuminate\Database\Eloquent\Builder;
 

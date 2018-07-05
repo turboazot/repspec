@@ -1,10 +1,10 @@
 <?php
 
-namespace ArtemProger\Test\Specification\Filter;
+namespace ArtemProger\Repspec\Test\Specification\Filter;
 
-use ArtemProger\Specification\Filter\Where;
-use ArtemProger\Test\Models\User;
-use ArtemProger\Test\TestCase;
+use ArtemProger\Repspec\Specification\Filter\Where;
+use ArtemProger\Repspec\Test\Models\User;
+use ArtemProger\Repspec\Test\TestCase;
 
 class WhereTest extends TestCase {
 

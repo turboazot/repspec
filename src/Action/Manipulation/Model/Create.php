@@ -1,8 +1,8 @@
 <?php
 
-namespace ArtemProger\Action\Manipulation\Model;
+namespace ArtemProger\Repspec\Action\Manipulation\Model;
 
-use ArtemProger\Action\Base\RelationValueAction;
+use ArtemProger\Repspec\Action\Base\RelationValueAction;
 
 class Create extends RelationValueAction {
 

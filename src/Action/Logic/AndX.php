@@ -1,9 +1,9 @@
 <?php
 
-namespace ArtemProger\Action\Logic;
+namespace ArtemProger\Repspec\Action\Logic;
 
-use ArtemProger\Action\Base\ModelManipulation;
-use ArtemProger\Action\Lock\Lock;
+use ArtemProger\Repspec\Action\Base\ModelManipulation;
+use ArtemProger\Repspec\Action\Lock\Lock;
 
 class AndX extends ModelManipulation {
 

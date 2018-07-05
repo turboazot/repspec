@@ -1,9 +1,9 @@
 <?php
 
-namespace ArtemProger\Action\Manipulation\Model;
+namespace ArtemProger\Repspec\Action\Manipulation\Model;
 
-use ArtemProger\Action\Base\ActionInterface;
-use ArtemProger\Action\Base\ModelManipulation;
+use ArtemProger\Repspec\Action\Base\ActionInterface;
+use ArtemProger\Repspec\Action\Base\ModelManipulation;
 use Illuminate\Database\Eloquent\Model;
 
 class SaveRelation extends ModelManipulation {

@@ -1,8 +1,8 @@
 <?php
 
-namespace ArtemProger\Specification\Filter;
+namespace ArtemProger\Repspec\Specification\Filter;
 
-use ArtemProger\Specification\Base\ConditionBooleanSpecification;
+use ArtemProger\Repspec\Specification\Base\ConditionBooleanSpecification;
 
 class Month extends ConditionBooleanSpecification {
 

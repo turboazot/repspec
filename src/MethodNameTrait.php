@@ -1,6 +1,6 @@
 <?php
 
-namespace ArtemProger;
+namespace ArtemProger\Repspec;
 
 trait MethodNameTrait {
 

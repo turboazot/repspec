@@ -1,11 +1,11 @@
 <?php
 
-namespace ArtemProger\Specification\Filter;
+namespace ArtemProger\Repspec\Specification\Filter;
 
-use ArtemProger\Specification\Base\ChildrenTrait;
-use ArtemProger\Specification\Query\From;
-use ArtemProger\Specification\Query\Select;
-use ArtemProger\Specification\SpecificationInterface;
+use ArtemProger\Repspec\Specification\Base\ChildrenTrait;
+use ArtemProger\Repspec\Specification\Query\From;
+use ArtemProger\Repspec\Specification\Query\Select;
+use ArtemProger\Repspec\Specification\SpecificationInterface;
 use Illuminate\Database\Query\Builder;
 
 class ExistsX implements SpecificationInterface {

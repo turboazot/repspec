@@ -1,11 +1,11 @@
 <?php
 
-namespace ArtemProger\Test\Specification\Filter;
+namespace ArtemProger\Repspec\Test\Specification\Filter;
 
-use ArtemProger\Test\TestCase;
-use ArtemProger\Test\Models\User;
-use ArtemProger\Specification\Filter\In;
-use ArtemProger\Specification\Filter\Where;
+use ArtemProger\Repspec\Test\TestCase;
+use ArtemProger\Repspec\Test\Models\User;
+use ArtemProger\Repspec\Specification\Filter\In;
+use ArtemProger\Repspec\Specification\Filter\Where;
 
 class InTest extends TestCase {
 

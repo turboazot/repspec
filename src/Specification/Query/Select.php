@@ -1,8 +1,8 @@
 <?php
 
-namespace ArtemProger\Specification\Query;
+namespace ArtemProger\Repspec\Specification\Query;
 
-use ArtemProger\Specification\Base\UndefinedArgsCountSpecification;
+use ArtemProger\Repspec\Specification\Base\UndefinedArgsCountSpecification;
 
 class Select extends UndefinedArgsCountSpecification {
 

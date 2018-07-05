@@ -1,9 +1,9 @@
 <?php
 
-namespace ArtemProger\Specification\Logic;
+namespace ArtemProger\Repspec\Specification\Logic;
 
-use ArtemProger\Specification\Base\ChildrenTrait;
-use ArtemProger\Specification\SpecificationInterface;
+use ArtemProger\Repspec\Specification\Base\ChildrenTrait;
+use ArtemProger\Repspec\Specification\SpecificationInterface;
 use Illuminate\Database\Eloquent\Builder;
 
 class AndX implements SpecificationInterface {

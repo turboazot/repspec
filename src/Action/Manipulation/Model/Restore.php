@@ -1,8 +1,8 @@
 <?php
 
-namespace ArtemProger\Action\Manipulation\Model;
+namespace ArtemProger\Repspec\Action\Manipulation\Model;
 
-use ArtemProger\Action\Base\RelationOptional;
+use ArtemProger\Repspec\Action\Base\RelationOptional;
 
 class Restore extends RelationOptional {
 

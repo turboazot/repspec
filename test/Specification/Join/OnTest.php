@@ -1,11 +1,11 @@
 <?php
 
-namespace ArtemProger\Test\Specification\Filter;
+namespace ArtemProger\Repspec\Test\Specification\Filter;
 
-use ArtemProger\Test\TestCase;
-use ArtemProger\Specification\Join\Join;
-use ArtemProger\Test\Models\User;
-use ArtemProger\Specification\Join\On;
+use ArtemProger\Repspec\Test\TestCase;
+use ArtemProger\Repspec\Specification\Join\Join;
+use ArtemProger\Repspec\Test\Models\User;
+use ArtemProger\Repspec\Specification\Join\On;
 
 class OnTest extends TestCase {
 

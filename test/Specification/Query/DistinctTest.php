@@ -1,10 +1,10 @@
 <?php
 
-namespace ArtemProger\Test\Specification\Query;
+namespace ArtemProger\Repspec\Test\Specification\Query;
 
-use ArtemProger\Test\TestCase;
-use ArtemProger\Specification\Query\Distinct;
-use ArtemProger\Test\Models\User;
+use ArtemProger\Repspec\Test\TestCase;
+use ArtemProger\Repspec\Specification\Query\Distinct;
+use ArtemProger\Repspec\Test\Models\User;
 
 class DistinctTest extends TestCase {
 

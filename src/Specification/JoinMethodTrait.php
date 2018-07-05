@@ -1,12 +1,12 @@
 <?php
 
-namespace ArtemProger\Specification;
+namespace ArtemProger\Repspec\Specification;
 
-use ArtemProger\Specification\Join\CrossJoin;
-use ArtemProger\Specification\Join\Join;
-use ArtemProger\Specification\Join\On;
-use ArtemProger\Specification\Join\With;
-use ArtemProger\Specification\Join\WithCount;
+use ArtemProger\Repspec\Specification\Join\CrossJoin;
+use ArtemProger\Repspec\Specification\Join\Join;
+use ArtemProger\Repspec\Specification\Join\On;
+use ArtemProger\Repspec\Specification\Join\With;
+use ArtemProger\Repspec\Specification\Join\WithCount;
 
 trait JoinMethodTrait {
 

@@ -1,8 +1,8 @@
 <?php
 
-namespace ArtemProger\Specification\Filter;
+namespace ArtemProger\Repspec\Specification\Filter;
 
-use ArtemProger\Specification\Base\ColumnValueBooleanNotSpecification;
+use ArtemProger\Repspec\Specification\Base\ColumnValueBooleanNotSpecification;
 
 class Between extends ColumnValueBooleanNotSpecification {
 

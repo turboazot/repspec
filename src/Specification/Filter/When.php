@@ -1,9 +1,9 @@
 <?php
 
-namespace ArtemProger\Specification\Filter;
+namespace ArtemProger\Repspec\Specification\Filter;
 
-use ArtemProger\Specification\Base\ChildrenTrait;
-use ArtemProger\Specification\SpecificationInterface;
+use ArtemProger\Repspec\Specification\Base\ChildrenTrait;
+use ArtemProger\Repspec\Specification\SpecificationInterface;
 use Illuminate\Database\Eloquent\Builder;
 
 class When implements SpecificationInterface {

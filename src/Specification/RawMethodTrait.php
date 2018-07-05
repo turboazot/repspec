@@ -1,11 +1,11 @@
 <?php
 
-namespace ArtemProger\Specification;
+namespace ArtemProger\Repspec\Specification;
 
-use ArtemProger\Specification\Query\OrderBy;
-use ArtemProger\Specification\Raw\HavingRaw;
-use ArtemProger\Specification\Raw\SelectRaw;
-use ArtemProger\Specification\Raw\WhereRaw;
+use ArtemProger\Repspec\Specification\Query\OrderBy;
+use ArtemProger\Repspec\Specification\Raw\HavingRaw;
+use ArtemProger\Repspec\Specification\Raw\SelectRaw;
+use ArtemProger\Repspec\Specification\Raw\WhereRaw;
 
 trait RawMethodTrait {
 

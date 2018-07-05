@@ -1,9 +1,9 @@
 <?php
 
-namespace ArtemProger\Specification\Logic;
+namespace ArtemProger\Repspec\Specification\Logic;
 
-use ArtemProger\Specification\Base\ChildrenTrait;
-use ArtemProger\Specification\Base\HaveSpecification;
+use ArtemProger\Repspec\Specification\Base\ChildrenTrait;
+use ArtemProger\Repspec\Specification\Base\HaveSpecification;
 use Closure;
 use Illuminate\Database\Eloquent\Builder;
 

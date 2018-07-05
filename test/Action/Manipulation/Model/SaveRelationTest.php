@@ -1,11 +1,11 @@
 <?php
 
-namespace ArtemProger\Test\Action\Manipulation\Model;
+namespace ArtemProger\Repspec\Test\Action\Manipulation\Model;
 
-use ArtemProger\Test\TestCase;
-use ArtemProger\Test\Models\User;
+use ArtemProger\Repspec\Test\TestCase;
+use ArtemProger\Repspec\Test\Models\User;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
-use ArtemProger\Action\Manipulation\Model\SaveRelation;
+use ArtemProger\Repspec\Action\Manipulation\Model\SaveRelation;
 
 class SaveRelationTest extends TestCase {
 

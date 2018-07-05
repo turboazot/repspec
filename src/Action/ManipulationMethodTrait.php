@@ -1,26 +1,26 @@
 <?php
 
-namespace ArtemProger\Action;
+namespace ArtemProger\Repspec\Action;
 
-use ArtemProger\Action\Manipulation\Model\Associate;
-use ArtemProger\Action\Manipulation\Model\Attach;
-use ArtemProger\Action\Manipulation\Model\Create;
-use ArtemProger\Action\Manipulation\Model\CreateMany;
-use ArtemProger\Action\Manipulation\Model\Detach;
-use ArtemProger\Action\Manipulation\Model\Dissociate;
-use ArtemProger\Action\Manipulation\Model\ForceDelete;
-use ArtemProger\Action\Manipulation\Model\Restore;
-use ArtemProger\Action\Manipulation\Model\SaveMany;
-use ArtemProger\Action\Manipulation\Model\SaveModel;
-use ArtemProger\Action\Manipulation\Model\SaveRelation;
-use ArtemProger\Action\Manipulation\Model\Sync;
-use ArtemProger\Action\Manipulation\Model\Toggle;
-use ArtemProger\Action\Manipulation\Model\Update as UpdateModel;
-use ArtemProger\Action\Manipulation\Model\UpdateExistingPivot;
-use ArtemProger\Action\Manipulation\Query\Decrement;
-use ArtemProger\Action\Manipulation\Query\Delete;
-use ArtemProger\Action\Manipulation\Query\Increment;
-use ArtemProger\Action\Manipulation\Query\Update as UpdateQuery;
+use ArtemProger\Repspec\Action\Manipulation\Model\Associate;
+use ArtemProger\Repspec\Action\Manipulation\Model\Attach;
+use ArtemProger\Repspec\Action\Manipulation\Model\Create;
+use ArtemProger\Repspec\Action\Manipulation\Model\CreateMany;
+use ArtemProger\Repspec\Action\Manipulation\Model\Detach;
+use ArtemProger\Repspec\Action\Manipulation\Model\Dissociate;
+use ArtemProger\Repspec\Action\Manipulation\Model\ForceDelete;
+use ArtemProger\Repspec\Action\Manipulation\Model\Restore;
+use ArtemProger\Repspec\Action\Manipulation\Model\SaveMany;
+use ArtemProger\Repspec\Action\Manipulation\Model\SaveModel;
+use ArtemProger\Repspec\Action\Manipulation\Model\SaveRelation;
+use ArtemProger\Repspec\Action\Manipulation\Model\Sync;
+use ArtemProger\Repspec\Action\Manipulation\Model\Toggle;
+use ArtemProger\Repspec\Action\Manipulation\Model\Update as UpdateModel;
+use ArtemProger\Repspec\Action\Manipulation\Model\UpdateExistingPivot;
+use ArtemProger\Repspec\Action\Manipulation\Query\Decrement;
+use ArtemProger\Repspec\Action\Manipulation\Query\Delete;
+use ArtemProger\Repspec\Action\Manipulation\Query\Increment;
+use ArtemProger\Repspec\Action\Manipulation\Query\Update as UpdateQuery;
 use Illuminate\Database\Eloquent\Model;
 
 trait ManipulationMethodTrait {

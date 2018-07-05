@@ -1,8 +1,8 @@
 <?php
 
-namespace ArtemProger\Specification\Query;
+namespace ArtemProger\Repspec\Specification\Query;
 
-use ArtemProger\Specification\Base\ValueSpecification;
+use ArtemProger\Repspec\Specification\Base\ValueSpecification;
 
 class Limit extends ValueSpecification {
 

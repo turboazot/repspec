@@ -1,10 +1,10 @@
 <?php
 
-namespace ArtemProger\Test\Action\Structure;
+namespace ArtemProger\Repspec\Test\Action\Structure;
 
-use ArtemProger\Test\TestCase;
-use ArtemProger\Test\Models\User;
-use ArtemProger\Action\Structure\SimplePaginate;
+use ArtemProger\Repspec\Test\TestCase;
+use ArtemProger\Repspec\Test\Models\User;
+use ArtemProger\Repspec\Action\Structure\SimplePaginate;
 
 class SimplePaginateTest extends TestCase {
 

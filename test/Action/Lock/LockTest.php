@@ -1,9 +1,9 @@
 <?php
 
-namespace ArtemProger\Test\Action\Lock;
+namespace ArtemProger\Repspec\Test\Action\Lock;
 
-use ArtemProger\Test\TestCase;
-use ArtemProger\Action\Lock\Lock;
+use ArtemProger\Repspec\Test\TestCase;
+use ArtemProger\Repspec\Action\Lock\Lock;
 
 class LockTest extends TestCase {
 

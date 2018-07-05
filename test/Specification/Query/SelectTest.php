@@ -1,10 +1,10 @@
 <?php
 
-namespace ArtemProger\Test\Specification\Query;
+namespace ArtemProger\Repspec\Test\Specification\Query;
 
-use ArtemProger\Test\TestCase;
-use ArtemProger\Specification\Query\Select;
-use ArtemProger\Test\Models\User;
+use ArtemProger\Repspec\Test\TestCase;
+use ArtemProger\Repspec\Specification\Query\Select;
+use ArtemProger\Repspec\Test\Models\User;
 
 class SelectTest extends TestCase {
 

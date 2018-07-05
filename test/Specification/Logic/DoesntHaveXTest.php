@@ -1,11 +1,11 @@
 <?php
 
-namespace ArtemProger\Test\Logic;
+namespace ArtemProger\Repspec\Test\Logic;
 
-use ArtemProger\Test\TestCase;
-use ArtemProger\Test\Models\Post;
-use ArtemProger\Specification\Filter\Where;
-use ArtemProger\Specification\Logic\DoesntHaveX;
+use ArtemProger\Repspec\Test\TestCase;
+use ArtemProger\Repspec\Test\Models\Post;
+use ArtemProger\Repspec\Specification\Filter\Where;
+use ArtemProger\Repspec\Specification\Logic\DoesntHaveX;
 
 class DoesntHaveXTest extends TestCase {
 

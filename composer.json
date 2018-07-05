@@ -18,13 +18,13 @@
     },
     "autoload": {
         "psr-4": {
-            "ArtemProger\\": "src/",
-            "ArtemProger\\Test\\": "test/"
+            "ArtemProger\\Repspec\\": "src/",
+            "ArtemProger\\Repspec\\Test\\": "test/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "ArtemProger\\Test\\": "tests/"
+            "ArtemProger\\Repspec\\Test\\": "tests/"
         }
     }
 }

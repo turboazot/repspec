@@ -1,11 +1,11 @@
 <?php
 
-namespace ArtemProger\Test\Action\Manipulation\Model;
+namespace ArtemProger\Repspec\Test\Action\Manipulation\Model;
 
-use ArtemProger\Test\TestCase;
-use ArtemProger\Action\Manipulation\Model\SaveMany;
+use ArtemProger\Repspec\Test\TestCase;
+use ArtemProger\Repspec\Action\Manipulation\Model\SaveMany;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
-use ArtemProger\Test\Models\User;
+use ArtemProger\Repspec\Test\Models\User;
 
 class SaveManyTest extends TestCase {
 

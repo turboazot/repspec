@@ -1,10 +1,10 @@
 <?php
 
-namespace ArtemProger\Test\Models;
+namespace ArtemProger\Repspec\Test\Models;
 
 use Illuminate\Database\Eloquent\Model;
-use ArtemProger\Test\Models\Comment;
-use ArtemProger\Test\Models\Tag;
+use ArtemProger\Repspec\Test\Models\Comment;
+use ArtemProger\Repspec\Test\Models\Tag;
 
 class Post extends Model {
 

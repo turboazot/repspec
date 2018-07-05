@@ -1,10 +1,10 @@
 <?php
 
-namespace ArtemProger\Test\Specification\Filter;
+namespace ArtemProger\Repspec\Test\Specification\Filter;
 
-use ArtemProger\Test\TestCase;
-use ArtemProger\Test\Models\UserSoftDelete;
-use ArtemProger\Specification\Filter\WithTrashed;
+use ArtemProger\Repspec\Test\TestCase;
+use ArtemProger\Repspec\Test\Models\UserSoftDelete;
+use ArtemProger\Repspec\Specification\Filter\WithTrashed;
 
 class WithTrashedTest extends TestCase {
 

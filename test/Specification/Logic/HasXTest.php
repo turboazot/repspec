@@ -1,11 +1,11 @@
 <?php
 
-namespace ArtemProger\Test\Specification\Logic;
+namespace ArtemProger\Repspec\Test\Specification\Logic;
 
-use ArtemProger\Specification\Filter\Where;
-use ArtemProger\Specification\Logic\HasX;
-use ArtemProger\Test\Models\Post;
-use ArtemProger\Test\TestCase;
+use ArtemProger\Repspec\Specification\Filter\Where;
+use ArtemProger\Repspec\Specification\Logic\HasX;
+use ArtemProger\Repspec\Test\Models\Post;
+use ArtemProger\Repspec\Test\TestCase;
 
 class HasXTest extends TestCase {
 

@@ -1,8 +1,8 @@
 <?php
 
-namespace ArtemProger\Specification\Query;
+namespace ArtemProger\Repspec\Specification\Query;
 
-use ArtemProger\Specification\SpecificationInterface;
+use ArtemProger\Repspec\Specification\SpecificationInterface;
 
 class OrderBy implements SpecificationInterface {
 

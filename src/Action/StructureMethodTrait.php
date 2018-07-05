@@ -1,16 +1,16 @@
 <?php
 
-namespace ArtemProger\Action;
+namespace ArtemProger\Repspec\Action;
 
-use ArtemProger\Action\Structure\Chunk;
-use ArtemProger\Action\Structure\Collection;
-use ArtemProger\Action\Structure\Cursor;
-use ArtemProger\Action\Structure\DoesntExist;
-use ArtemProger\Action\Structure\Exists;
-use ArtemProger\Action\Structure\Paginate;
-use ArtemProger\Action\Structure\SimplePaginate;
-use ArtemProger\Action\Structure\Single;
-use ArtemProger\Action\Structure\Value;
+use ArtemProger\Repspec\Action\Structure\Chunk;
+use ArtemProger\Repspec\Action\Structure\Collection;
+use ArtemProger\Repspec\Action\Structure\Cursor;
+use ArtemProger\Repspec\Action\Structure\DoesntExist;
+use ArtemProger\Repspec\Action\Structure\Exists;
+use ArtemProger\Repspec\Action\Structure\Paginate;
+use ArtemProger\Repspec\Action\Structure\SimplePaginate;
+use ArtemProger\Repspec\Action\Structure\Single;
+use ArtemProger\Repspec\Action\Structure\Value;
 
 trait StructureMethodTrait {
 

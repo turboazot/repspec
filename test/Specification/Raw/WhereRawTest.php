@@ -1,10 +1,10 @@
 <?php
 
-namespace ArtemProger\Test\Specification\Raw;
+namespace ArtemProger\Repspec\Test\Specification\Raw;
 
-use ArtemProger\Test\TestCase;
-use ArtemProger\Test\Models\User;
-use ArtemProger\Specification\Raw\WhereRaw;
+use ArtemProger\Repspec\Test\TestCase;
+use ArtemProger\Repspec\Test\Models\User;
+use ArtemProger\Repspec\Specification\Raw\WhereRaw;
 
 class WhereRawTest extends TestCase {
 

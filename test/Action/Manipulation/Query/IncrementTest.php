@@ -1,9 +1,9 @@
 <?php
 
-namespace ArtemProger\Test\Action\Manipulation\Query;
+namespace ArtemProger\Repspec\Test\Action\Manipulation\Query;
 
-use ArtemProger\Test\TestCase;
-use ArtemProger\Action\Manipulation\Query\Increment;
+use ArtemProger\Repspec\Test\TestCase;
+use ArtemProger\Repspec\Action\Manipulation\Query\Increment;
 
 class IncrementTest extends TestCase {
 

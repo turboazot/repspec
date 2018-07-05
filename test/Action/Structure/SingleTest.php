@@ -1,10 +1,10 @@
 <?php
 
-namespace ArtemProger\Test\Action\Structure;
+namespace ArtemProger\Repspec\Test\Action\Structure;
 
-use ArtemProger\Test\TestCase;
-use ArtemProger\Action\Structure\Single;
-use ArtemProger\Test\Models\User;
+use ArtemProger\Repspec\Test\TestCase;
+use ArtemProger\Repspec\Action\Structure\Single;
+use ArtemProger\Repspec\Test\Models\User;
 
 class SingleTest extends TestCase {
 

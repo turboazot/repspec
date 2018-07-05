@@ -1,8 +1,8 @@
 <?php
 
-namespace ArtemProger\Specification\Raw;
+namespace ArtemProger\Repspec\Specification\Raw;
 
-use ArtemProger\Specification\Base\RawSpecification;
+use ArtemProger\Repspec\Specification\Base\RawSpecification;
 
 class SelectRaw extends RawSpecification {
 
