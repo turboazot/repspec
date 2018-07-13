@@ -1,5 +1,11 @@
 # Basic usage examples
 
+## Installation
+
+```sh
+$ composer install turboazot/repspec
+```
+
 ## Create repository
 
 Let's create some repository class. You need to specify `$modelClass` property.
