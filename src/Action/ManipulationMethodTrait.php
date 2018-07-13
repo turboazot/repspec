@@ -6,6 +6,7 @@ use ArtemProger\Repspec\Action\Manipulation\Model\Associate;
 use ArtemProger\Repspec\Action\Manipulation\Model\Attach;
 use ArtemProger\Repspec\Action\Manipulation\Model\Create;
 use ArtemProger\Repspec\Action\Manipulation\Model\CreateMany;
+use ArtemProger\Repspec\Action\Manipulation\Model\Delete as DeleteModel;
 use ArtemProger\Repspec\Action\Manipulation\Model\Detach;
 use ArtemProger\Repspec\Action\Manipulation\Model\Dissociate;
 use ArtemProger\Repspec\Action\Manipulation\Model\ForceDelete;
@@ -18,7 +19,7 @@ use ArtemProger\Repspec\Action\Manipulation\Model\Toggle;
 use ArtemProger\Repspec\Action\Manipulation\Model\Update as UpdateModel;
 use ArtemProger\Repspec\Action\Manipulation\Model\UpdateExistingPivot;
 use ArtemProger\Repspec\Action\Manipulation\Query\Decrement;
-use ArtemProger\Repspec\Action\Manipulation\Query\Delete;
+use ArtemProger\Repspec\Action\Manipulation\Query\Delete as DeleteQuery;
 use ArtemProger\Repspec\Action\Manipulation\Query\Increment;
 use ArtemProger\Repspec\Action\Manipulation\Query\Update as UpdateQuery;
 use Illuminate\Database\Eloquent\Model;
@@ -225,11 +226,19 @@ trait ManipulationMethodTrait {
     }
 
     /**
-     * @return Delete
+     * @return DeleteModel 
      */
-    public static function delete()
+    public static function deleteModel()
     {
-        return new Delete();
+        return new DeleteModel();
+    }
+
+    /**
+     * @return DeleteQuery
+     */
+    public static function deleteQuery()
+    {
+        return new DeleteQuery();
     }
 
     /**

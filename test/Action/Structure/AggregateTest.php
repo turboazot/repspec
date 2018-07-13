@@ -10,16 +10,18 @@ class AggregateTest extends TestCase {
     public function testAggregate_WithFunctionAndColumn_ApplyMethod()
     {
         $methodName = 'avg';
-        $queryMock = $this->getQueryMock([$methodName]);
+        $builderMethod = 'aggregate';
+        $queryMock = $this->getQueryMock([$methodName, $builderMethod]);
         $column = 'field1';
         $value = 3;
 
     
-        $action = new Aggregate($methodName, $column);
+        $action = new Aggregate($methodName, [$column]);
         $queryMock->expects($this->once())
-            ->method($methodName)
+            ->method('aggregate')
             ->with(
-                $this->equalTo($column)
+                $this->equalTo($methodName),
+                $this->equalTo([$column])
             )
             ->willReturn($value)
         ;
@@ -33,14 +35,17 @@ class AggregateTest extends TestCase {
     public function testAggregate_WithFunctionOnly_ApplyMethod()
     {
         $methodName = 'avg';
-        $queryMock = $this->getQueryMock([$methodName]);
+        $builderMethod = 'aggregate';
+        $queryMock = $this->getQueryMock([$methodName, $builderMethod]);
         $value = 3;
+        $column = 'field1';
 
-        $action = new Aggregate($methodName);
+        $action = new Aggregate($methodName, [$column]);
         $queryMock->expects($this->once())
-            ->method($methodName)
+            ->method('aggregate')
             ->with(
-                $this->equalTo(['*'])
+                $this->equalTo($methodName),
+                $this->equalTo([$column])
             )
             ->willReturn($value)
         ;

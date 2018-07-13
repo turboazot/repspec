@@ -11,9 +11,9 @@ trait AggregatesMethodTrait {
      *
      * @return Aggregate
      */
-    public static function avg($columns = ['*'])
+    public static function avg($column)
     {
-        return new Aggregate('avg', $columns);
+        return new Aggregate(__FUNCTION__, [$column]);
     }
 
     /**
@@ -21,9 +21,15 @@ trait AggregatesMethodTrait {
      *
      * @return Aggregate
      */
-    public static function count($columns = ['*'])
+    public static function count($columns = '*')
     {
-        return new Aggregate('count', $columns);
+        if (is_null($columns)) {
+            $columns = [];
+        }
+
+        $columns = !is_array($columns) ? [$columns] : $columns;
+
+        return (int) new Aggregate(__FUNCTION__, $columns);
     }
 
     /**
@@ -31,9 +37,9 @@ trait AggregatesMethodTrait {
      *
      * @return Aggregate
      */
-    public static function max($columns = ['*'])
+    public static function max($column)
     {
-        return new Aggregate('max', $columns);
+        return new Aggregate('max', [$column]);
     }
 
     /**
@@ -41,9 +47,9 @@ trait AggregatesMethodTrait {
      *
      * @return Aggregate
      */
-    public static function min($columns = ['*'])
+    public static function min($column)
     {
-        return new Aggregate('min', $columns);
+        return new Aggregate('min', [$column]);
     }
 
     /**
@@ -51,8 +57,8 @@ trait AggregatesMethodTrait {
      *
      * @return Aggregate
      */
-    public static function sum($columns = ['*'])
+    public static function sum($column)
     {
-        return new Aggregate('sum', $columns);
+        return new Aggregate('sum', [$column]);
     }
 }

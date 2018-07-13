@@ -80,6 +80,6 @@ class Aggregate implements ActionInterface {
      */
     public function do($builder)
     {
-        return $builder->{$this->function}($this->columns);
+        return $builder->aggregate($this->function, $this->columns);
     }
 }
