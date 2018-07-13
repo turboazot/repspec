@@ -3,7 +3,7 @@
 ## Installation
 
 ```sh
-$ composer install turboazot/repspec
+$ composer require turboazot/repspec
 ```
 
 ## Create repository
