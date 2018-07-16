@@ -12,6 +12,18 @@ trait ChildrenTrait {
     protected $children;
 
     /**
+     * @param $child SpecificationInterface 
+     *
+     * @return $this 
+     */
+    public function addChild(SpecificationInterface $child)
+    {
+        $this->children []= $child;
+
+        return $this;
+    }
+
+    /**
      * @param array $children
      *
      * @return $this
