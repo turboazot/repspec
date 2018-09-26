@@ -2,7 +2,6 @@
 
 namespace ArtemProger\Repspec\Action\Manipulation\Model;
 
-use ArtemProger\Repspec\Action\Base\ActionInterface;
 use ArtemProger\Repspec\Action\Base\ModelManipulation;
 use Illuminate\Database\Eloquent\Model;
 
@@ -19,15 +18,29 @@ class SaveRelation extends ModelManipulation {
     protected $model;
 
     /**
+     * @var $pivotAttributes array
+     */
+    protected $pivotAttributes;
+
+    /**
+     * @var $touch bool
+     */
+    protected $touch;
+
+    /**
      * SaveRelation constructor.
      *
      * @param string $relation
      * @param Model $model
+     * @param array $pivotAttributes
+     * @param bool $touch
      */
-    public function __construct(string $relation, Model $model)
+    public function __construct(string $relation, Model $model, array $pivotAttributes = [], $touch = true)
     {
         $this->relation = $relation;
         $this->model = $model;
+        $this->pivotAttributes = $pivotAttributes;
+        $this->touch = $touch;
     }
 
     /**
@@ -37,7 +50,11 @@ class SaveRelation extends ModelManipulation {
     {
         $this->checkModel($model);
 
-        return $model->{$this->relation}()->save($this->model);
+        return $model->{$this->relation}()->save(
+            $this->model,
+            $this->pivotAttributes,
+            $this->touch
+        );
     }
 
     /**

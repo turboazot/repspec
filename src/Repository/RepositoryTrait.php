@@ -22,7 +22,7 @@ trait RepositoryTrait {
      *
      * @return Builder|Model
      */
-    public function match(SpecificationInterface $spec, ActionInterface $action = null)
+    public function match(SpecificationInterface $spec = null, ActionInterface $action = null)
     {
         $query = $this->query($spec);
 
@@ -45,11 +45,13 @@ trait RepositoryTrait {
      *
      * @return mixed
      */
-    public function query(SpecificationInterface $spec)
+    public function query(SpecificationInterface $spec = null)
     {
         $query = $this->getQuery();
 
-        $spec->apply($query);
+        if ($spec) {
+            $spec->apply($query);
+        }
 
         return $query;
     }
@@ -174,6 +176,20 @@ trait RepositoryTrait {
     public function get($columns = ['*'])
     {
         return $this->getModelClass()::get($columns);
+    }
+
+    /**
+     * Paginate the given query.
+     *
+     * @param  int  $perPage
+     * @param  array  $columns
+     * @param  string  $pageName
+     * @param  int|null  $page
+     * @return \Illuminate\Contracts\Pagination\LengthAwarePaginator
+     */
+    public function paginate($perPage = null, $columns = ['*'], $pageName = 'page', $page = null)
+    {
+        return $this->getModelClass()::query()->paginate($perPage, $columns, $pageName, $page);
     }
     
 }

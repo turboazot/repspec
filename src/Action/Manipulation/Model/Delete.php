@@ -2,15 +2,17 @@
 
 namespace ArtemProger\Repspec\Action\Manipulation\Model;
 
-use ArtemProger\Repspec\Action\Base\NoArgumentAction;
+use ArtemProger\Repspec\Action\Base\ModelManipulation;
 
-class Delete extends NoArgumentAction {
+class Delete extends ModelManipulation {
 
     /**
      * {@inheritdoc}
      */
-    public function getMethodName()
+    public function do($model)
     {
-        return 'delete';
+        $this->checkModel($model);
+
+        return $model->delete();
     }
 }

@@ -2,6 +2,7 @@
 
 namespace ArtemProger\Repspec\Action\Logic;
 
+use ArtemProger\Repspec\Action\Base\ActionInterface;
 use ArtemProger\Repspec\Action\Base\ModelManipulation;
 use ArtemProger\Repspec\Action\Lock\Lock;
 
@@ -64,5 +65,13 @@ class AndX extends ModelManipulation {
             $anotherAction = $this->actions[0];
         }
         return $anotherAction->do($builder);
+    }
+
+    /**
+     * @param ActionInterface $action
+     */
+    public function addAction(ActionInterface $action)
+    {
+        $this->actions []= $action;
     }
 }

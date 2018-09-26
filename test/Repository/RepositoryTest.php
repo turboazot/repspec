@@ -62,14 +62,23 @@ class RepositoryTest extends TestCase {
 
         $repositoryStub->match($specMock, $actionMock);
     }
-
-    /**
-     * @expectedException ArgumentCountError
-     */
-    public function testMatch_NoArguments_ThrowAnException()
+    public function testMatch_NoArguments_DoShouldBeCalled()
     {
-        $repository = $this->getRepositoryStub();
-        $repository->match();
+        $repositoryStub = $this->getRepositoryStub();
+        $doResult = [
+            new User,
+            new User
+        ];
+
+        $repositoryStub->expects($this->once())
+            ->method('do')
+            ->with(
+                $this->equalTo($this->getQueryMock()),
+                $this->equalTo(null)
+            )
+            ->willReturn($doResult);
+
+        $repositoryStub->match(null, null);
     }
 
     public function testDo_WithQueryAndAction_ActionMethodDoShouldBeCalled()
